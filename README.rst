@@ -304,3 +304,4 @@ Other apps: (The "blank" white screenshot is a flashlight app)
    :alt: Weather application running in the wasp-os simulator
    :width: 179
 
+
