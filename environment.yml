@@ -16,13 +16,15 @@ dependencies:
   - pygobject
   - pyserial
   - sdl2
+  - dbus
   # pydbus is NOT available via conda; install with pip below.
   - pip:
       - ecdsa
+      # - python-dbus 
       # Remove nordicsemi (not on PyPI).
       # If you need Nordic tools, use nrfutil instead.
       # - nrfutil
       - cbor
       - pysdl2
       - tomli
-      - pydbus
+      # - pydbus
