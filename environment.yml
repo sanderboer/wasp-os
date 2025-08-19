@@ -1,0 +1,28 @@
+name: wasp-os-build
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - make
+  - gcc
+  - wget
+  - unzip
+  - click
+  - numpy
+  - pexpect
+  - pillow
+  - pygobject
+  - pyserial
+  - sdl2
+  # pydbus is NOT available via conda; install with pip below.
+  - pip:
+      - ecdsa
+      # Remove nordicsemi (not on PyPI).
+      # If you need Nordic tools, use nrfutil instead.
+      # - nrfutil
+      - cbor
+      - pysdl2
+      - tomli
+      - pydbus
